@@ -1,10 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import { useState } from 'react';
 import MovieList from './components/movielist/MovieList';
-
 import Filter from './components/filter/Filter';
-
 import { v4 as uuidv4 } from 'uuid';
 import AddModal from './components/addmodal/AddModal';
 
